@@ -1,28 +1,37 @@
+
 nav{
     font-family:"Courier New", cursive;
-    font-size:2vw;
+    font-size:1.8vw;
     text-align:right;
     margin-right:2%;
-    color:white;
+    color:#241817;
     font-weight: bold;
+    
     
 }
 nav a:link{
     text-decoration: none;
-    color:rgb(253, 248, 248);
+    color:#241817;
 
 }
 nav a:visited{
     text-decoration: none;
-    color:rgb(253, 248, 248);
+    color:#241817;
 }
 nav span:hover{
     box-shadow:
-    inset 0 -0.175em white,
+    inset 0 -0.175em #241817,
     inset 0 -0.2em rgba(131, 4, 4, 0.74);
     
 }
 
 nav span{
         transition: box-shadow 0.5s;
+}
+
+footer{
+    padding:2%;
+    background-color:#241817;
+    color:#beaba9;
+    font-family:times new roman, seif;
 }
