@@ -601,8 +601,9 @@ footer a:focus{
   color:#6bbaa7;
 }
 
-@media all and (-ms-high-contrast:none)
-     {
+
+     @supports (-ms-ime-align:auto)
+     and (-webkit-text-stroke:initial) {
        h1 .dia, h2 .dia, .sfaturi h3 .dia{
          font-family:'Calibri', serif;
          font-weight:bold;
@@ -623,49 +624,48 @@ footer a:focus{
        .sfaturi p{
          font-family:'Arial', serif;
        }
+     }
+     
+@media all and (-ms-high-contrast:none) {
+       h1 .dia, h2 .dia, .sfaturi h3 .dia{
+         font-family:'Calibri', serif;
+         font-weight:bold;
+         font-style:italic;
        }
+       h5{
+         font-family:'Calibri Light', serif;
+         font-style:italic;
+       }
+       .block{
+         font-family:'Arial', serif;
+         font-style:italic;
+       }
+       .teste{
+         font-family:'Arial Black', serif;
+         font-weight:lighter;
+       }
+       .sfaturi p{
+         font-family:'Arial', serif;
+       }
+  }
      *::-ms-backdrop,     h1 .dia, h2 .dia, .sfaturi h3 .dia{
            font-family:'Calibri', serif;
            font-weight:bold;
            font-style:italic;
          }
-         h5{
+        *::-ms-backdrop, h5{
            font-family:'Calibri Light', serif;
            font-style:italic;
          }
-         .block{
+        *::-ms-backdrop, .block{
            font-family:'Arial', serif;
            font-style:italic;
          }
-         .teste{
+         *::-ms-backdrop, .teste{
            font-family:'Arial Black', serif;
            font-weight:lighter;
          }
-         .sfaturi p{
+        *::-ms-backdrop, .sfaturi p{
            font-family:'Arial', serif;
          }
      }
-@supports (-ms-ime-align:auto)
-  and (-webkit-text-stroke:initial) {
-
-    h1 .dia, h2 .dia, .sfaturi h3 .dia{
-      font-family:'Calibri', serif;
-      font-weight:bold;
-      font-style:italic;
-    }
-    h5{
-      font-family:'Calibri Light', serif;
-      font-style:italic;
-    }
-    .block{
-      font-family:'Arial', serif;
-      font-style:italic;
-    }
-    .teste{
-      font-family:'Arial Black', serif;
-      font-weight:lighter;
-    }
-    .sfaturi p{
-      font-family:'Arial', serif;
-    }
-  }
