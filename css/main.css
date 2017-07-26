@@ -624,6 +624,7 @@ footer a:focus{
 
 /*Parallax*/
 
+/*Hero*/
 .hero .fly {
   opacity: 0;
   transform: translateY(30px);
@@ -635,24 +636,33 @@ footer a:focus{
   opacity: 1;
 }
 
-/*.hero {
-  position: absolute;
-}*/
+/*Quote*/
 
-/*.hero h1 {
-  transform: translate(0px, 100px);
-}*/
-
-/*.hero h5 {
+.quote {
+  overflow: hidden;
+}
+.citat .fly {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.7s ease-in, transform 0.6s ease-in;
+  transform: translateX(-30px);
+  transition: opacity 1s ease, transform 0.9s ease;
 }
 
-.hero h5.is-showing {
-  transform: translateY(0px);
+.citat .fly.is-showing {
+  transform: translateX(0px);
   opacity: 1;
-}*/
+}
+
+/*Video*/
+.vidcont .fly {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 2.5s ease, transform 2s ease;
+}
+
+.vidcont .fly.is-showing {
+  transform: translateX(0px);
+  opacity: 1;
+}
 
 
 

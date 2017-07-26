@@ -5,13 +5,12 @@ $(document).ready(function(){
   jQuery(".title").fitText(1, { minFontSize: '5px', maxFontSize: '20px' });
 
 
+// Hero Entrance
 
   $('.hero .fly').each(function(i){
     setTimeout(function(){
       $('.hero .fly').eq(i).addClass('is-showing');
-
     }, 150 * (i*2+1));
-
   });
 
 
@@ -61,12 +60,33 @@ $(document).ready(function(){
 //   });
 // });
 
+
+
 $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
   var opacity = 1-(wScroll/500);
   console.log(opacity);
+
+  // Hero Parallx
   $('.hero').css({
     'transform' : 'translate(0px, '+ wScroll / 10 +'%)',
     'opacity' : opacity
   });
+
+  // Quotes and Video Parallax
+  if (wScroll > $('.quote').offset().top - $(window).height()){
+    $('.citat .fly').each(function(i){
+      setTimeout(function(){
+        $('.citat .fly').eq(i).addClass('is-showing');
+      }, 150 * (i*3+1));
+    });
+
+    $('.vidcont .fly').each(function(i){
+      setTimeout(function(){
+        $('.vidcont .fly').eq(i).addClass('is-showing');
+      }, 150 * (i*6+1));
+    });
+
+  }
+
 });
