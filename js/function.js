@@ -81,12 +81,46 @@ $(window).scroll(function(){
       }, 150 * (i*3+1));
     });
 
-    $('.vidcont .fly').each(function(i){
-      setTimeout(function(){
-        $('.vidcont .fly').eq(i).addClass('is-showing');
-      }, 150 * (i*6+1));
-    });
+    $('.vidcont .fly').addClass('is-showing');
 
   }
 
+
+// Teste Parallax
+
+if(wScroll > $('.teste').offset().top - $(window).height()) {
+
+  $('.teste .fly').addClass('is-showing');
+
+  var offset = Math.min(0, wScroll - $('.teste').offset().top + $(window).height() - 550);
+  $('.ev_nat').css({
+    'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'
+  });
+
+  $('.bac').css({
+    'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'
+  });
+
+}
+
+// Galerie Parallax
+
+if(wScroll > $('.galerie').offset().top - $(window).height()) {
+    $('.galerie .fly').addClass('is-showing');
+
+    setTimeout(function(){
+      $('.carousel.fly2').addClass('is-showing');
+    }, 500);
+}
+
+// Sfaturi Parallax
+if(wScroll > $('.sfaturi').offset().top - $(window).height()) {
+  $('.sfaturi .fly').addClass('is-showing');
+
+  $('.sfaturi .fly2').each(function(i){
+    setTimeout(function(){
+      $('.sfaturi .fly2').eq(i).addClass('is-showing');
+    }, 150 * (i*3+1));
+  });
+}
 });

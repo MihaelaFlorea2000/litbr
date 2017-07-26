@@ -664,7 +664,66 @@ footer a:focus{
   opacity: 1;
 }
 
+/*Teste*/
+.teste {
+  overflow: hidden;
+}
 
+.teste .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.teste .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/*Galerie*/
+.galerie .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.galerie .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.carousel.fly2 {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.carousel.fly2.is-showing {
+  opacity: 1;
+}
+
+
+/*Sfaturi*/
+.sfaturi .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+
+.sfaturi .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.sfaturi .fly2 {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+
+.sfaturi .fly2.is-showing {
+  opacity: 1;
+}
 
 
      @supports (-ms-ime-align:auto)
