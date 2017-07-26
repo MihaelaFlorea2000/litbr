@@ -108,5 +108,7 @@ $(document).ready(function(){
     } else {
       $('header').removeClass('sticky');
     }
+
+    
   });
 });
