@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="css/dia.css" />
   <![endif]-->
@@ -20,7 +22,8 @@
 <body>
   <!-- Hero -->
   <!-- ====================================================== -->
-  <div class="container-fluid top">
+<div class="all">
+  <div class="container-fluid top" style="z-index: 0" >
       <header class="row">
         <nav class="meniu navbar navbar-default">
           <div class="container-fluid">
@@ -48,16 +51,16 @@
       </header>
       <div class="row">
         <div class="col-sm-12 hero text-center">
-          <h1 class="sub1">Literatur<span class="dia">&#259;</span></h1><br><h1 class="subtitle">Br<span class="dia">&#259;</span>ilean<span class="dia">&#259;</span></h1>
-          <h5 class="title">„C<span class="dia">&#259;</span>rţile sunt busole care ne permit s<span class="dia">&#259;</span> navig<span class="dia">&#259;</span>m pe m<span class="dia">&#259;</span>rile periculoase ale vieţii umane.”</h5>
-          <br><br><a href="#quote" class="text-uppercase button">Exploreaz<span class="dia">&#259;</span></a>
+          <div class="fly"><h1 class="sub1">Literatur<span class="dia">&#259;</span></h1><br><h1 class="subtitle">Br<span class="dia">&#259;</span>ilean<span class="dia">&#259;</span></h1></div>
+          <h5 class="title fly">„C<span class="dia">&#259;</span>rţile sunt busole care ne permit s<span class="dia">&#259;</span> navig<span class="dia">&#259;</span>m pe m<span class="dia">&#259;</span>rile periculoase ale vieţii umane.”</h5>
+          <br><br><a href="#quote" class="text-uppercase button fly">Exploreaz<span class="dia">&#259;</span></a>
         </div>
       </div>
   </div>
 
   <!-- Quote and video area
   ================================================================ -->
-  <div class="container-fluid  quote">
+  <div class="container-fluid  quote" style="z-index: 2">
     <div class="row">
       <div class="col-sm-6">
         <span class="quotes" id="quote">&#10077;</span>
@@ -212,11 +215,11 @@
         </div>
       </div>
     </div>
-
+</div>
     <!-- Footer
     ============================================================= -->
     <footer class="container-fluid footer">
-      <div class="row">
+      <div class="row footer-stuff">
         <div class="col-sm-1">
           <img src="img/logo.png" class="img-resnsive">
         </div>
@@ -231,6 +234,8 @@
         </div>
       </div>
     </footer>
+
+    <div style="height: 180px"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/function.js"></script>
