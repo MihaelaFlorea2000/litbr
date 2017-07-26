@@ -726,6 +726,12 @@ footer a:focus{
 }
 
 
+/*Sticky Navigation*/
+/*.fixed {
+  position: fixed;
+  top: 0;
+}*/
+
      @supports (-ms-ime-align:auto)
      and (-webkit-text-stroke:initial) {
        h1 .dia, h2 .dia, .sfaturi h3 .dia{
