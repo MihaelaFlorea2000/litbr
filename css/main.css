@@ -58,6 +58,8 @@ nav a:focus{
   .logo{
     border: none;
   }
+
+
 }
 
 
@@ -73,6 +75,25 @@ nav a:focus{
 .logo img {
   width: 70px;
   height: 70px;
+}
+
+/*Sticky Navigation*/
+.sticky {
+  background-color: rgba(0, 0, 0, 0.32);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 60px;
+}
+
+.sticky img {
+  width: 50px;
+  height: 50px;
+}
+
+.sticky .logo{
+  padding: 2px 50px;
+
 }
 
 
@@ -164,6 +185,23 @@ nav a:focus{
 
   .sub1{
     margin-top:100px;
+  }
+
+  .sticky {
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+
+  .sticky .logo{
+    padding: 0;
+  }
+
+  .sticky .navbar-default .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+
+  .sticky img {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -624,6 +662,7 @@ footer a:focus{
 
 /*Parallax*/
 
+/*Hero*/
 .hero .fly {
   opacity: 0;
   transform: translateY(30px);
@@ -635,24 +674,94 @@ footer a:focus{
   opacity: 1;
 }
 
-/*.hero {
-  position: absolute;
-}*/
+/*Quote*/
 
-/*.hero h1 {
-  transform: translate(0px, 100px);
-}*/
-
-/*.hero h5 {
+.quote {
+  overflow: hidden;
+}
+.citat .fly {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.7s ease-in, transform 0.6s ease-in;
+  transform: translateX(-30px);
+  transition: opacity 1s ease, transform 0.9s ease;
 }
 
-.hero h5.is-showing {
-  transform: translateY(0px);
+.citat .fly.is-showing {
+  transform: translateX(0px);
   opacity: 1;
-}*/
+}
+
+/*Video*/
+.vidcont .fly {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 2.5s ease, transform 2s ease;
+}
+
+.vidcont .fly.is-showing {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+/*Teste*/
+.teste {
+  overflow: hidden;
+}
+
+.teste .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.teste .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/*Galerie*/
+.galerie .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.galerie .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.carousel.fly2 {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.carousel.fly2.is-showing {
+  opacity: 1;
+}
+
+
+/*Sfaturi*/
+.sfaturi .fly {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+
+.sfaturi .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.sfaturi .fly2 {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+
+.sfaturi .fly2.is-showing {
+  opacity: 1;
+}
 
 
 
