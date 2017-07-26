@@ -58,6 +58,8 @@ nav a:focus{
   .logo{
     border: none;
   }
+
+
 }
 
 
@@ -73,6 +75,25 @@ nav a:focus{
 .logo img {
   width: 70px;
   height: 70px;
+}
+
+/*Sticky Navigation*/
+.sticky {
+  background-color: rgba(0, 0, 0, 0.32);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 60px;
+}
+
+.sticky img {
+  width: 50px;
+  height: 50px;
+}
+
+.sticky .logo{
+  padding: 2px 50px;
+
 }
 
 
@@ -164,6 +185,23 @@ nav a:focus{
 
   .sub1{
     margin-top:100px;
+  }
+
+  .sticky {
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+
+  .sticky .logo{
+    padding: 0;
+  }
+
+  .sticky .navbar-default .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+
+  .sticky img {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -726,11 +764,7 @@ footer a:focus{
 }
 
 
-/*Sticky Navigation*/
-/*.fixed {
-  position: fixed;
-  top: 0;
-}*/
+
 
      @supports (-ms-ime-align:auto)
      and (-webkit-text-stroke:initial) {

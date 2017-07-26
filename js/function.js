@@ -101,12 +101,12 @@ $(document).ready(function(){
     }
 
     // Sticky Navigation
-    // var navOffset = $('nav').offset().top;
-    //
-    // if(wScroll >= navOffset) {
-    //   $('nav').addClass('fixed');
-    // } else {
-    //   $('nav').removeClass('fixed');
-    // }
+    var navOffset = $('.quote').offset().top - 300;
+
+    if(wScroll >= navOffset) {
+      $('header').addClass('sticky');
+    } else {
+      $('header').removeClass('sticky');
+    }
   });
 });
