@@ -14,7 +14,7 @@ $(document).ready(function(){
         $('.cont .fly').eq(i).addClass('is-showing');
       }, 150 * (i*3+1));
     });
-  }, 1000);
+  }, 300);
 
 
 
