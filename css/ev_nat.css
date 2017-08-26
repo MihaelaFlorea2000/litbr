@@ -56,13 +56,9 @@ nav a:focus{
   .logo{
     border: none;
   }
-
-
 }
 
-
 /*Logo*/
-
 .logo {
   padding: 5px 15px;
   margin: 5px 25px;
@@ -92,7 +88,6 @@ nav a:focus{
 
 }
 
-
 /*Hero */
 .top{
   background: url("../img/back8.jpg");
@@ -102,7 +97,6 @@ nav a:focus{
   background-attachment: fixed;
   z-index: 2;
 }
-
 
 /*Media Queries Hero*/
 @media screen and (max-width:767px) {
@@ -153,7 +147,6 @@ nav a:focus{
 }
 
 
-
 /*Teste*/
 /*=======================================================*/
 
@@ -197,41 +190,14 @@ h2 {
   height: 160px;
   visibility: none;
 }
-/*Media Queries Teste*/
-/*@media screen and (max-width:1130px){
-  h2 {
-    font-size: 80px;
-    margin-left: 10px;
-  }
-
-}*/
-/*
-@media screen and (max-width:1055px){
-  h2 {
-    font-size: 75px;
-    margin-left: 10px;
-  }
-
-}*/
-
-/*@media screen and (max-width:950px){
-  h2 {
-    font-size: 65px;
-  }
-
-}*/
 
 @media screen and (max-width:860px) {
-  /*h2 {
-    font-size: 60px;
-  }*/
   .ship {
     width: 130px;
   }
 }
 
 @media screen and (max-width:767px) {
-
   h3 {
     font-size: 3vw;
   }
@@ -256,19 +222,13 @@ h2 {
   .space {
     display: inline;
   }
-
-
 }
 
 @media screen and (max-width:520px) {
-
   .ship {
     width: 120px;
     height: auto;
   }
-
-
-
 }
 
 @media screen and (max-width:466px) {
@@ -286,19 +246,13 @@ h2 {
     height: 180px;
     visibility: none;
   }
-
-
-
 }
 
 @media screen and (max-width:403px) {
-
   .fill {
     height: 200px;
     visibility: none;
   }
-
-
 }
 
 /*Footer*/
@@ -319,8 +273,6 @@ h2 {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-
-
 }
 
 footer img{
@@ -343,3 +295,8 @@ footer a:hover,
 footer a:focus{
   color:#6bbaa7;
 }
+
+
+/*Parallax*/
+/*=======================================================*/
+/*Teste*/
