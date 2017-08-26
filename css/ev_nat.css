@@ -152,20 +152,6 @@ nav a:focus{
   }
 }
 
-@media screen and (max-width:500px){
-  .title{
-    display:none;
-  }
-
-  .sub1{
-    margin-top:100px;
-  }
-
-  .button{
-    padding: 10px 30px;
-    font-size: 12px;
-  }
-}
 
 
 /*Teste*/
@@ -178,15 +164,13 @@ nav a:focus{
   width: 160px;
 }
 
-
-
 .teste {
   margin-top: 100px;
 }
 
 h2 {
   font-family:'Lobster', cursive;
-  font-size:90px;
+  font-size:7vw;
   margin-top: -100px;
   padding-bottom:50px;
   color:#fca601;
@@ -205,47 +189,72 @@ h2 {
   text-decoration:none;
 }
 
-
-.bac h3{
-  margin-right:50px;
+.space {
+  display: none;
 }
 
+.fill {
+  height: 160px;
+  visibility: none;
+}
 /*Media Queries Teste*/
-@media screen and (max-width:1130px){
+/*@media screen and (max-width:1130px){
   h2 {
     font-size: 80px;
     margin-left: 10px;
   }
 
-}
-
+}*/
+/*
 @media screen and (max-width:1055px){
   h2 {
     font-size: 75px;
     margin-left: 10px;
   }
 
-}
+}*/
 
-@media screen and (max-width:950px){
+/*@media screen and (max-width:950px){
   h2 {
     font-size: 65px;
   }
 
-}
+}*/
 
 @media screen and (max-width:860px) {
-  h2 {
+  /*h2 {
     font-size: 60px;
-  }
+  }*/
   .ship {
     width: 130px;
   }
 }
 
-@media screen and (max-width:766px) {
+@media screen and (max-width:767px) {
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  .test {
+    width: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline;
+  }
+
   h2 {
-    display: none;
+    font-size: 9vw;
+  }
+
+  h2 {
+    font-size: 10vw;
+    position: relative;
+    left: -40px;
+  }
+
+  .space {
+    display: inline;
   }
 
 
@@ -253,16 +262,41 @@ h2 {
 
 @media screen and (max-width:520px) {
 
+  .ship {
+    width: 120px;
+    height: auto;
+  }
+
+
 
 }
 
-@media screen and (max-width:465px) {
+@media screen and (max-width:466px) {
+  h3 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 10vw;
+    position: relative;
+    left: -30px;
+  }
+
+  .fill {
+    height: 180px;
+    visibility: none;
+  }
+
 
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:403px) {
 
+  .fill {
+    height: 200px;
+    visibility: none;
+  }
 
 
 }
