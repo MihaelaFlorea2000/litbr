@@ -300,3 +300,24 @@ footer a:focus{
 /*Parallax*/
 /*=======================================================*/
 /*Teste*/
+.cont .fly{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.cont .fly2 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.9s ease;
+}
+
+.cont .fly.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.cont .fly2.is-showing {
+  opacity: 1;
+  transform: translateY(0px);
+}
