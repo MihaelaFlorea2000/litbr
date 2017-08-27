@@ -169,9 +169,8 @@ h3 {
   margin-top: 20px;
 }
 
-
 .teste:nth-child(1) {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 h2 {
@@ -193,7 +192,7 @@ h2 {
 
 .teste a:hover,
 .teste a:focus{
-  color: #fca601;
+  color: #6bbaa7;
   text-decoration:none;
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }

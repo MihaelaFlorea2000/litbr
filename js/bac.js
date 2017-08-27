@@ -17,15 +17,30 @@ $(document).ready(function(){
 
 // Image Swap Shell
   $('.ship').mouseover(function(){
+    // $(this).delay(200).fadeOut(100, function(){
+    //   $(this).attr('src', 'img/shell_open.png').css({'width':'130px'}).fadeIn(100);
+    // });
     $(this).attr('src', 'img/shell_open.png');
     $(this).css({
-      'width':'130px'
+      'width':'130px',
+      'position':'relative',
+      'left':'10px'
+    });
+    $(this).parent().css({
+      'position':'relative',
+      'top':'-55px',
     });
   });
   $('.ship').mouseout(function(){
     $(this).attr('src', 'img/shell_closed.png');
     $(this).css({
-      'width':'110px'
+      'width':'110px',
+      'position':'relative',
+      'left':'0px'
+    });
+    $(this).parent().css({
+      'position':'relative',
+      'top':'0px',
     });
   });
 
