@@ -15,8 +15,15 @@ $(document).ready(function(){
     });
   }, 400);
 
-  $('.ship').hover(function(){
+// Image Swap Shell
+  $('.ship').mouseover(function(){
     $(this).attr('src', 'img/shell_open.png');
+    $(this).css({
+      'width':'130px'
+    });
+  });
+  $('.ship').mouseout(function(){
+    $(this).attr('src', 'img/shell_closed.png');
     $(this).css({
       'width':'110px'
     });
