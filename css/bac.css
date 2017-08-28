@@ -92,9 +92,10 @@ nav a:focus{
   background: url("../img/back13.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 145vh;
   background-attachment: fixed;
   z-index: 2;
+  background-repeat: repeat-y;
 }
 
 /*Media Queries Hero*/
@@ -236,19 +237,32 @@ h2 {
 
 @media screen and (max-width:767px) {
   h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
+  }
+  h2 {
+    margin-top: 80px;
+  }
+  .ship {
+    width: 80px;
+  }
+  .teste:nth-child(1) {
+    margin-top: 10px;
   }
 
   .test {
-    width: 100px;
-    margin-left: 0;
-    margin-right: 0;
-    display: inline;
+    height: 180px;
   }
 
-  h2 {
-    margin-top: 80px;
+  .fly {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
+  .ship:nth-child(2),
+  .ship:nth-child(5),
+  .ship:nth-child(8),
+  .ship:nth-child(11) {
+    margin: 0;
   }
 }
 
