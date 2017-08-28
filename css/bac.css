@@ -203,9 +203,34 @@ h2 {
   visibility: none;
 }
 
-@media screen and (max-width:860px) {
+
+@media screen and (max-width:1050px) {
   .ship {
-    width: 130px;
+    width: 100px;
+  }
+
+  h2 {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .ship {
+    width: 90px;
+  }
+
+  h2 {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width:820px) {
+  .ship {
+    width: 85px;
+  }
+
+  h2 {
+    font-size: 9vw;
   }
 }
 
@@ -222,24 +247,31 @@ h2 {
   }
 
   h2 {
-    font-size: 9vw;
-  }
+    margin-top: 80px;
 
+  }
+}
+
+@media screen and (max-width:670px) {
   h2 {
     font-size: 10vw;
-    position: relative;
-    left: -40px;
   }
 
-  .space {
-    display: inline;
+  .teste:nth-child(2) {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h2 {
+    margin-top: 90px;
+    font-size: 11vw;
   }
 }
 
 @media screen and (max-width:520px) {
-  .ship {
-    width: 120px;
-    height: auto;
+  h2 {
+    font-size: 12vw;
   }
 }
 
@@ -248,15 +280,15 @@ h2 {
     font-size: 4vw;
   }
 
-  h2 {
-    font-size: 10vw;
-    position: relative;
-    left: -30px;
-  }
-
   .fill {
     height: 180px;
     visibility: none;
+  }
+}
+
+@media screen and (max-width:420px) {
+  h2 {
+    font-size: 13vw;
   }
 }
 
@@ -264,6 +296,12 @@ h2 {
   .fill {
     height: 200px;
     visibility: none;
+  }
+}
+
+@media screen and (max-width:381px) {
+  h2 {
+    font-size: 14vw;
   }
 }
 

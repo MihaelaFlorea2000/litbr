@@ -20,15 +20,16 @@ $(document).ready(function(){
     // $(this).delay(200).fadeOut(100, function(){
     //   $(this).attr('src', 'img/shell_open.png').css({'width':'130px'}).fadeIn(100);
     // });
+    var shell_closed = $(this).width();
     $(this).attr('src', 'img/shell_open.png');
     $(this).css({
-      'width':'130px',
+      'width': '130px',
       'position':'relative',
-      'left':'10px'
+      'left':'1vw'
     });
     $(this).parent().css({
       'position':'relative',
-      'top':'-55px',
+      'top':'-4vw',
     });
   });
   $('.ship').mouseout(function(){
