@@ -253,7 +253,7 @@ h2 {
   .top {
     height: 150vh;
   }
-  
+
   .test {
     height: 180px;
   }
@@ -390,3 +390,22 @@ footer a:focus{
   opacity: 1;
   transform: translateX(0px);
 }
+
+
+/*Media Queries IE*/
+     @supports (-ms-ime-align:auto)
+     and (-webkit-text-stroke:initial) {
+       ul a .dia {
+         font-family: 'Arial', serif;
+         font-weight: bold;
+       }
+     }
+
+@media all and (-ms-high-contrast:none) {
+       ul a .dia {
+         font-family: 'Arial', serif;
+         font-weight: bold;
+       }
+  }
+
+    

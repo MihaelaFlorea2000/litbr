@@ -321,3 +321,44 @@ footer a:focus{
   opacity: 1;
   transform: translateY(0px);
 }
+
+
+@supports (-ms-ime-align:auto)
+and (-webkit-text-stroke:initial) {
+  h1 .dia, h2 .dia, .sfaturi h3 .dia{
+    font-family:'Calibri', serif;
+    font-weight:bold;
+    font-style:italic;
+  }
+
+  a .dia {
+    font-family: 'Arial', serif;
+    font-weight: bold;
+  }
+}
+
+/*Media Queries IE*/
+@media all and (-ms-high-contrast:none) {
+  h1 .dia, h2 .dia, .sfaturi h3 .dia{
+    font-family:'Calibri', serif;
+    font-weight:bold;
+    font-style:italic;
+  }
+
+
+  a .dia {
+    font-family: 'Arial', serif;
+    font-weight: bold;
+  }
+}
+*::-ms-backdrop,     h1 .dia, h2 .dia, .sfaturi h3 .dia{
+      font-family:'Calibri', serif;
+      font-weight:bold;
+      font-style:italic;
+    }
+  
+    *::-ms-backdrop, a .dia {
+      font-family: 'Arial', serif;
+      font-weight: bold;
+    }
+}

@@ -319,7 +319,8 @@ video{
   padding-bottom:19px;
 }
 
-.teste a:link{
+.teste a:link,
+.teste a:visited{
   color: #b6a19e;
 }
 
@@ -798,6 +799,11 @@ footer a:focus{
        .sfaturi p{
          font-family:'Arial', serif;
        }
+
+       ul a .dia {
+         font-family: 'Arial', serif;
+         font-weight: bold;
+       }
      }
 
 @media all and (-ms-high-contrast:none) {
@@ -821,6 +827,11 @@ footer a:focus{
        .sfaturi p{
          font-family:'Arial', serif;
        }
+
+       ul a .dia {
+         font-family: 'Arial', serif;
+         font-weight: bold;
+       }
   }
      *::-ms-backdrop,     h1 .dia, h2 .dia, .sfaturi h3 .dia{
            font-family:'Calibri', serif;
@@ -841,5 +852,10 @@ footer a:focus{
          }
         *::-ms-backdrop, .sfaturi p{
            font-family:'Arial', serif;
+         }
+
+         *::-ms-backdrop, ul a .dia {
+           font-family: 'Arial', serif;
+           font-weight: bold;
          }
      }

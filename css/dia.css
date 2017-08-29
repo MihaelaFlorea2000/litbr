@@ -18,3 +18,8 @@ h5{
 .sfaturi p{
   font-family:'Arial', serif;
 }
+
+ul a .dia {
+  font-family: 'Arial', serif;
+  font-weight: bold;
+}
