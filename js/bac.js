@@ -19,9 +19,9 @@ $(document).ready(function(){
   var shell_closed = $('.ship').width();
   var shell_top;
   var shell_left;
-  
+
 // Image Swap Shell
-  $('.ship').mouseover(function(){
+  $('.ship').hover(function(){
     $(this).attr('src', 'img/shell_open.png');
     if(window.matchMedia('(max-width: 890px) and (min-width: 820px)').matches) {
       shell_left = 1.1;
