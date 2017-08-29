@@ -192,7 +192,8 @@ h2 {
 }
 
 .teste a:hover,
-.teste a:focus{
+.teste a:focus,
+.teste a:active{
   color: #6bbaa7;
   text-decoration:none;
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
