@@ -1,25 +1,31 @@
-h1 .dia, h2 .dia, .sfaturi h3 .dia{
-  font-family:'Calibri', serif;
-  font-weight:bold;
-  font-style:italic;
+h1 .dia,
+h2 .dia,
+.sfaturi h3 .dia {
+	font-family: 'Calibri', serif;
+	font-weight: bold;
+	font-style: italic;
 }
-h5{
-  font-family:'Calibri Light', serif;
-  font-style:italic;
+
+h5 {
+	font-family: 'Calibri Light', serif;
+	font-style: italic;
 }
-.block{
-  font-family:'Arial', serif;
-  font-style:italic;
+
+.block {
+	font-family: 'Arial', serif;
+	font-style: italic;
 }
-.teste{
-  font-family:'Arial Black', serif;
-  font-weight:lighter;
+
+.teste {
+	font-family: 'Arial Black', serif;
+	font-weight: lighter;
 }
-.sfaturi p{
-  font-family:'Arial', serif;
+
+.sfaturi p {
+	font-family: 'Arial', serif;
 }
 
 ul a .dia {
-  font-family: 'Arial', serif;
-  font-weight: bold;
+	font-family: 'Arial', serif;
+	font-weight: bold;
 }
