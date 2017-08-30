@@ -129,19 +129,6 @@ nav a:focus {
 		width: 50px;
 		height: 50px;
 	}
-	.subtitle {
-		letter-spacing: 1.5pt;
-		position: relative;
-		top: -35px;
-		left: 0px;
-	}
-	.button {
-		padding: 12px 35px;
-		font-size: 15px;
-	}
-	.sub1 {
-		margin-top: 100px;
-	}
 	.sticky {
 		background-color: rgba(0, 0, 0, 0.32);
 	}
