@@ -16,11 +16,10 @@ $( document ).ready( function() {
 	}, 300 );
 
 	// Scrolling Dependant
-  
+
 	$( window ).scroll( function() {
 		var wScroll = $( this ).scrollTop();
 		var opacity = 1 - ( wScroll / 500 );
-		console.log( wScroll );
 	} );
 
 } );
